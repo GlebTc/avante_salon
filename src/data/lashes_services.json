@@ -1,0 +1,68 @@
+{
+    "image_source": "lashes",
+    "categories": [
+      {
+        "title": "Lash Services",
+        "image_index": 1,
+        "services_list": [
+          {
+            "description": "Classic",
+            "price": "$120/$75"
+          },
+          {
+            "description": "Hybrid",
+            "price": "$130/$85"
+          },
+          {
+            "description": "Wet Set",
+            "price": "$130/$85"
+          },
+          {
+            "description": "Volume",
+            "price": "$150/$95"
+          },
+          {
+            "description": "Mega Volume",
+            "price": "$185/$125"
+          },
+          {
+            "description": "Lash Lift + Tint",
+            "price": "$100"
+          }
+        ]
+      },
+      {
+        "title": "Add Ons",
+        "image_index": 2,
+        "services_list": [
+          {
+            "description": "\"Strip Lash\" Look",
+            "price": "$10"
+          },
+          {
+            "description": "Colour/Decal/Glitter",
+            "price": "$10"
+          },
+          {
+            "description": "L Curl/M Curl",
+            "price": "$10"
+          },
+          {
+            "description": "Lash Removal",
+            "price": "$30"
+          }
+        ]
+      },
+      {
+        "title": "Microblading",
+        "image_index": 3,
+        "services_list": [
+          {
+            "description": "Microblading",
+            "price": "$350"
+          }
+        ]
+      }
+    ]
+  }
+  

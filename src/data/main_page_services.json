@@ -1,0 +1,151 @@
+{
+  "image_source": "services",
+  "categories": [
+    {
+      "title": "Hair Cuts",
+      "image_index": 1,
+      "services_list": [
+        {
+          "description": "Women's Cut Dry",
+          "price": "$40"
+        },
+        {
+          "description": "Women's Cut & Style Wash",
+          "price": "$60"
+        },
+        {
+          "description": "Men's Cut",
+          "price": "$30"
+        },
+        {
+          "description": "Kid's Cut",
+          "price": "$40"
+        }
+      ]
+    },
+    {
+      "title": "Colour & Highlights",
+      "image_index": 2,
+      "services_list": [
+        {
+          "description": "Root Touch Up",
+          "price": "$70"
+        },
+        {
+          "description": "Full Colour",
+          "price": "$100"
+        },
+        {
+          "description": "Half Highlights",
+          "price": "$150"
+        },
+        {
+          "description": "Partial Highlights",
+          "price": "$160"
+        },
+        {
+          "description": "Full Highlights",
+          "price": "$200"
+        },
+        {
+          "description": "Ombre Balayage",
+          "price": "$200"
+        },
+        {
+          "description": "Perm Men",
+          "price": "$100"
+        },
+        {
+          "description": "Perm & Cut Women",
+          "price": "$140"
+        }
+      ]
+    },
+    {
+      "title": "Blow Out & Styles",
+      "image_index": 3,
+      "services_list": [
+        {
+          "description": "Wash & Blow Out",
+          "price": "Starting at $50"
+        },
+        {
+          "description": "Up Do",
+          "price": "$100"
+        },
+        {
+          "description": "Half Up",
+          "price": "$70"
+        },
+        {
+          "description": "Down & Curly",
+          "price": "$60"
+        },
+        {
+          "description": "Bridal Up Do",
+          "price": "$200-$300"
+        }
+      ]
+    },
+    {
+      "title": "Skin Care",
+      "image_index": 4,
+      "services_list": [
+        {
+          "description": "Facial",
+          "price": "$100"
+        },
+        {
+          "description": "Hydrafacial",
+          "price": "$120"
+        },
+        {
+          "description": "Body Cavitation / RF",
+          "price": "$100"
+        },
+        {
+          "description": "Laser Hair Removal",
+          "price": "Click for Price",
+          "options": [
+            {
+              "option_title": "Underarms",
+              "option_price": "$35"
+            },
+            {
+              "option_title": "Lip & Chin",
+              "option_price": "$35"
+            },
+            {
+              "option_title": "Full Face",
+              "option_price": "$45"
+            },
+            {
+              "option_title": "Full Arms",
+              "option_price": "$65"
+            },
+            {
+              "option_title": "Full Legs",
+              "option_price": "$95"
+            },
+            {
+              "option_title": "Bikini",
+              "option_price": "$65"
+            },
+            {
+              "option_title": "Back & Stomach",
+              "option_price": "$95"
+            },
+            {
+              "option_title": "Full Body (stomach and back not included)",
+              "option_price": "$200"
+            }
+          ]
+        },
+        {
+          "description": "LED Light Therapy",
+          "price": "$50"
+        }
+      ]
+    }
+  ]
+}
