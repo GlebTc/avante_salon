@@ -1,18 +1,22 @@
 [
-
-    {
-      "title": "Lashes & Microblading",
-      "href": "/lashes",
-      "alt": "Lashes & Microblading"
-    },
-    {
-      "title": "Gallery",
-      "href": "/gallery",
-      "alt": "Gallery"
-    },
-    {
-      "title": "Contact",
-      "href": "/contact",
-      "alt": "Contact"
-    }
-  ]
+  {
+    "title": "Home",
+    "href": "/",
+    "alt": "Home"
+  },
+  {
+    "title": "Lashes & Microblading",
+    "href": "/lashes",
+    "alt": "Lashes & Microblading"
+  },
+  {
+    "title": "Gallery",
+    "href": "/gallery",
+    "alt": "Gallery"
+  },
+  {
+    "title": "Contact",
+    "href": "/contact",
+    "alt": "Contact"
+  }
+]
