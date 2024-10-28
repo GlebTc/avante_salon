@@ -36,3 +36,11 @@ h3 {
 .item-hover {
   @apply rounded-md shadow-sm shadow-amber-800/50;
 }
+
+.button {
+  @apply bg-amber-50 font-bold py-2 px-4 rounded-2xl text-black hover:bg-amber-200 duration-[var(--main-duration)];
+}
+
+.button-inverted {
+  @apply bg-black text-white font-bold py-2 px-4 rounded-2xl hover:bg-gray-800 duration-[var(--main-duration)];
+}

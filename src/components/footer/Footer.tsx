@@ -33,7 +33,7 @@ const Footer = () => {
             <li className='PHONE_CONTACT_CONTAINER flex items-center gap-4'>
               <IoCall />
               <Link
-                href='tel:9055759001'
+                href='tel:9055465151'
                 className='hover:text-amber-200 duration-[var(--main-duration)]'
                 aria-label='Call Avanté Salon & Spa | (905) 546-5151'
                 title='Call Avanté Salon & Spa | (905) 546-5151'
