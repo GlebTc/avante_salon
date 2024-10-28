@@ -9,9 +9,14 @@ const Footer = () => {
   return (
     <div className='FOOTER_MAIN_CONTAINER h-180 bg-gray-500 text-amber-50 px-4 w-full max-w-[1170px] mx-auto xl:rounded-t-xl'>
       <div className='CONTACT_CONTAINER border-b border-gray-300 py-4 w-full'>
-        <h2 className=' border-b-2 mb-8 border-b-amber-50'>
-          Avanté Salon & Spa
-        </h2>
+        <Link
+          href='/'
+          className='border-b-amber-50 hover:text-amber-200 duration-[var(--main-duration)]'
+          aria-label='Home Page Link | Avanté Salon & Spa  | Hair Salon & Spa in Hamilton'
+          title='Home Page Link | Avanté Salon & Spa  | Hair Salon & Spa in Hamilton'
+        >
+          <h2 className='border-b-2 mb-8'>Avanté Salon & Spa</h2>
+        </Link>
 
         <div className='CONTACT_INFO'>
           <ul className='sm:text-xl md:text-2xl lg:text-3xl flex flex-col gap-2'>
@@ -20,8 +25,8 @@ const Footer = () => {
               <Link
                 href='https://maps.app.goo.gl/rdsqxjYdqAe78SeNA'
                 className='hover:text-amber-200 duration-[var(--main-duration)]'
-                aria-label='Call Avanté Salon & Spa | (905) 546-5151'
-                title='Call Avanté Salon & Spa | (905) 546-5151'
+                aria-label='Location | Directions | Avanté Salon & Spa | (905) 546-5151 | Hair Salon & Spa in Hamilton'
+                title='Location | Directions | Avanté Salon & Spa | (905) 546-5151 | Hair Salon & Spa in Hamilton'
               >
                 <p>
                   {constants.locations[0].address_one}{' '}
@@ -35,8 +40,8 @@ const Footer = () => {
               <Link
                 href='tel:9055465151'
                 className='hover:text-amber-200 duration-[var(--main-duration)]'
-                aria-label='Call Avanté Salon & Spa | (905) 546-5151'
-                title='Call Avanté Salon & Spa | (905) 546-5151'
+                aria-label='Call Avanté Salon & Spa | (905) 546-5151 | Hair Salon & Spa in Hamilton'
+                title='Call Avanté Salon & Spa | (905) 546-5151 | Hair Salon & Spa in Hamilton'
               >
                 <p>{constants.locations[0].phone}</p>
               </Link>
@@ -48,8 +53,8 @@ const Footer = () => {
               <Link
                 href='mailto:avante1050@gmail.com'
                 className='hover:text-amber-200 duration-[var(--main-duration)]'
-                aria-label='Email Avanté Salon & Spa | avante1050@gmail.com'
-                title='Email Avanté Salon & Spa | avante1050@gmail.com'
+                aria-label='Email Avanté Salon & Spa | avante1050@gmail.com | Hair Salon & Spa in Hamilton'
+                title='Email Avanté Salon & Spa | avante1050@gmail.com | Hair Salon & Spa in Hamilton'
               >
                 <p>{constants.locations[0].email}</p>
               </Link>

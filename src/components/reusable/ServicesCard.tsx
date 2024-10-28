@@ -47,7 +47,8 @@ const ServicesCard: React.FC<ServicesCardProps> = ({
       <div className='relative h-[300px] w-full mb-4 item-hover'>
         <Image
           src={imagePath}
-          alt={title}
+          alt={`${title} | Avanté Salon & Spa | Hair Salon & Spa in Hamilton`}
+          title={`${title} | Avanté Salon & Spa | Hair Salon & Spa in Hamilton`}
           fill
           className='object-cover rounded-md object-left-top'
           sizes='1'

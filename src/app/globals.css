@@ -5,6 +5,7 @@
 :root {
   --background: #ffffff;
   --main-duration: 0.3s;
+  --navbar-h: 80px;
 }
 
 @media (prefers-color-scheme: dark) {

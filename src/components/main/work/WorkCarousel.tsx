@@ -29,7 +29,8 @@ const WorkCarousel = () => {
     <div className='relative h-[75dvh] rounded-2xl overflow-hidden m-4 item-hover'>
       <Image
         src={`/images/carousel/carousel_00${currentIndex + 1}.webp`}
-        alt={`work-${currentIndex}`}
+        alt={`Our Work Image | Avanté Salon & Spa | Hair Salon & Spa in Hamilton`}
+        title={`Our Work Image | Avanté Salon & Spa | Hair Salon & Spa in Hamilton`}
         fill
         sizes="1"
         className='object-cover object-top'

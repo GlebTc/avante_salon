@@ -32,17 +32,20 @@ const Navbar = () => {
   }, []);
   return (
     <div
-      className={`${componentName}_MAIN_CONTAINER fixed top-0 left-0 w-full h-fit bg-amber-50 flex justify-between items-center p-2 z-[100] ${
+      className={`${componentName}_MAIN_CONTAINER fixed top-0 left-0 w-full h-[var(--navbar-h)] bg-amber-50 flex justify-between items-center p-2 z-[100] ${
         navShadow ? 'shadow-md shadow-gray-400' : ''
       }`}
     >
       <Link
         href='/'
         className='relative h-[50px] w-[100px]'
+        aria-label='Home Page Link | Avanté Salon & Spa  | Hair Salon & Spa in Hamilton'
+        title='Home Page Link | Avanté Salon & Spa  | Hair Salon & Spa in Hamilton'
       >
         <Image
           src={logo}
-          alt='Logo'
+          alt='Logo Image | Home Page Link | Avanté Salon & Spa | Hair Salon & Spa in Hamilton'
+          title='Logo Image | Home Page Link | Avanté Salon & Spa | Hair Salon & Spa in Hamilton'
           fill
           className='object-contain h-full w-auto rounded-xl'
         />

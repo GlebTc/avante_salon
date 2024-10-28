@@ -4,11 +4,9 @@ import ContactInformation from '@/src/app/contact/ContactInformation';
 const Contact = () => {
   const componentName = 'CONTACT';
   return (
-    <div
-      className={`${componentName}_MAIN_CONTAINER max-w-[1200px] mx-auto p-4`}
-    >
+    <div className={`${componentName}_MAIN_CONTAINER h-full p-4 max-w-7xl mx-auto pt-[var(--navbar-h)]`}>
       <h2
-        className={`${componentName}_HEADER_CONTAINER font-bold text-3xl text-center m-4 mt-24`}
+        className={`${componentName}_HEADER_CONTAINER font-bold text-3xl text-center m-4 `}
       >
         Contact Us
       </h2>

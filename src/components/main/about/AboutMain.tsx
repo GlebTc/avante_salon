@@ -12,7 +12,8 @@ const AboutMain = () => {
     >
       <Image
         src={about_me}
-        alt='About Me'
+        alt='About Me Image | Avanté Salon & Spa | Hair Salon & Spa in Hamilton'
+        title="About Me Image | Avanté Salon & Spa | Hair Salon & Spa in Hamilton"
         className='object-cover object-top w-full h-[75dvh] item-hover'
       />
       <div

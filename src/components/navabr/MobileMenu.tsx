@@ -26,7 +26,8 @@ const MobileMenu = ({
       <button
         onClick={toggleMenu}
         className='absolute top-4 right-4 text-3xl z-20'
-        aria-label='Close Menu'
+        aria-label='Mobile Menu Close Button | Avanté Salon & Spa | Hair Salon & Spa in Hamilton'
+        title='Mobile Menu Close Button | Avanté Salon & Spa | Hair Salon & Spa in Hamilton'
       >
         <IoCloseSharp />
       </button>
@@ -43,8 +44,8 @@ const MobileMenu = ({
               <h2>
                 <Link
                   href={item.href}
-                  aria-label={`Jade Yorkville | Toronto Restaurant |Go To ${item.title}`}
-                  title={`Jade Yorkville | Toronto Restaurant |Go To ${item.title}`}
+                  aria-label={`${item.title} | Mobile Menu Item | Avanté Salon & Spa  | Hair Salon & Spa in Hamilton`}
+                  title={`${item.title} | Mobile Menu Item | Avanté Salon & Spa  | Hair Salon & Spa in Hamilton`}
                 >
                   {item.title}
                 </Link>
@@ -58,9 +59,9 @@ const MobileMenu = ({
           <h4>
             Follow us{' '}
             <Link
-              href='https://www.instagram.com/jadeyorkville/?hl=en'
-              title='Jade Yorkville | Instagram'
-              aria-label='Jade Yorkville | Instagram'
+              href='https://www.instagram.com/avante_salonspa/'
+              title='Instagram Link @avante_salonspa | Avanté Salon & Spa  | Hair Salon & Spa in Hamilton'
+              aria-label='Instagram Link @avante_salonspa | Avanté Salon & Spa  | Hair Salon & Spa in Hamilton'
             >
               @{constants.locations[0].instagram_account}
             </Link>
