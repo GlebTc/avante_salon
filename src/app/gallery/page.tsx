@@ -4,7 +4,7 @@ import Image from 'next/image';
 const Gallery = () => {
   const componentName = 'GALLERY';
   const imageSrcBase = "/images/gallery/gallery_";
-  const imageCount = 12; // Update to match the number of images in your gallery
+  const imageCount = 11; // Update to match the number of images in your gallery
   const images = Array.from({ length: imageCount }, (_, index) => `${imageSrcBase}${String(index + 1).padStart(3, '0')}.webp`);
 
   return (
